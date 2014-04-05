@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A85ECA218F00B95004861FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A85ECA118F00B95004861FE /* Foundation.framework */; };
+		4A85ECA418F00B95004861FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A85ECA318F00B95004861FE /* CoreGraphics.framework */; };
+		4A85ECA618F00B95004861FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A85ECA518F00B95004861FE /* UIKit.framework */; };
+		4A85ECAC18F00B95004861FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A85ECAA18F00B95004861FE /* InfoPlist.strings */; };
+		4A85ECAE18F00B95004861FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A85ECAD18F00B95004861FE /* main.m */; };
+		4A85ECB218F00B95004861FE /* SCPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A85ECB118F00B95004861FE /* SCPAppDelegate.m */; };
+		4A85ECB818F00B95004861FE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A85ECB618F00B95004861FE /* Main_iPad.storyboard */; };
+		4A85ECC018F00B95004861FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A85ECBF18F00B95004861FE /* Images.xcassets */; };
+		4A85ECC718F00B95004861FE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A85ECC618F00B95004861FE /* XCTest.framework */; };
+		4A85ECC818F00B95004861FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A85ECA118F00B95004861FE /* Foundation.framework */; };
+		4A85ECC918F00B95004861FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A85ECA518F00B95004861FE /* UIKit.framework */; };
+		4A85ECD118F00B95004861FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A85ECCF18F00B95004861FE /* InfoPlist.strings */; };
+		4A85ECD318F00B95004861FE /* SCPRotatingWheelControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A85ECD218F00B95004861FE /* SCPRotatingWheelControlTests.m */; };
+		4A85ECE818F00BE9004861FE /* SCPRotatingWheelControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A85ECDF18F00BE9004861FE /* SCPRotatingWheelControl.m */; };
+		4A85ECE918F00BE9004861FE /* SCPRotatingWheelControlBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A85ECE118F00BE9004861FE /* SCPRotatingWheelControlBottom.m */; };
+		4A85ECEA18F00BE9004861FE /* SCPRotatingWheelControlMiddle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A85ECE318F00BE9004861FE /* SCPRotatingWheelControlMiddle.m */; };
+		4A85ECEB18F00BE9004861FE /* SCPRotatingWheelControlSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A85ECE518F00BE9004861FE /* SCPRotatingWheelControlSegment.m */; };
+		4A85ECEC18F00BE9004861FE /* SCPRotatingWheelControlTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A85ECE718F00BE9004861FE /* SCPRotatingWheelControlTop.m */; };
+		4A85ECEF18F00D49004861FE /* SCPRotatingWheelControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A85ECEE18F00D49004861FE /* SCPRotatingWheelControlViewController.m */; };
+		4A85ECF218F01DD4004861FE /* SCPRotatingWheelControlBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A85ECF118F01DD4004861FE /* SCPRotatingWheelControlBlocks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A85ECCA18F00B95004861FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A85EC9618F00B95004861FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A85EC9D18F00B95004861FE;
+			remoteInfo = SCPRotatingWheelControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A85EC9E18F00B95004861FE /* SCPRotatingWheelControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCPRotatingWheelControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A85ECA118F00B95004861FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A85ECA318F00B95004861FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A85ECA518F00B95004861FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A85ECA918F00B95004861FE /* SCPRotatingWheelControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCPRotatingWheelControl-Info.plist"; sourceTree = "<group>"; };
+		4A85ECAB18F00B95004861FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A85ECAD18F00B95004861FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A85ECAF18F00B95004861FE /* SCPRotatingWheelControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCPRotatingWheelControl-Prefix.pch"; sourceTree = "<group>"; };
+		4A85ECB018F00B95004861FE /* SCPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCPAppDelegate.h; sourceTree = "<group>"; };
+		4A85ECB118F00B95004861FE /* SCPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPAppDelegate.m; sourceTree = "<group>"; };
+		4A85ECB718F00B95004861FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4A85ECBF18F00B95004861FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A85ECC518F00B95004861FE /* SCPRotatingWheelControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCPRotatingWheelControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A85ECC618F00B95004861FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4A85ECCE18F00B95004861FE /* SCPRotatingWheelControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCPRotatingWheelControlTests-Info.plist"; sourceTree = "<group>"; };
+		4A85ECD018F00B95004861FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A85ECD218F00B95004861FE /* SCPRotatingWheelControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPRotatingWheelControlTests.m; sourceTree = "<group>"; };
+		4A85ECDE18F00BE9004861FE /* SCPRotatingWheelControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPRotatingWheelControl.h; sourceTree = "<group>"; };
+		4A85ECDF18F00BE9004861FE /* SCPRotatingWheelControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPRotatingWheelControl.m; sourceTree = "<group>"; };
+		4A85ECE018F00BE9004861FE /* SCPRotatingWheelControlBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPRotatingWheelControlBottom.h; sourceTree = "<group>"; };
+		4A85ECE118F00BE9004861FE /* SCPRotatingWheelControlBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPRotatingWheelControlBottom.m; sourceTree = "<group>"; };
+		4A85ECE218F00BE9004861FE /* SCPRotatingWheelControlMiddle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPRotatingWheelControlMiddle.h; sourceTree = "<group>"; };
+		4A85ECE318F00BE9004861FE /* SCPRotatingWheelControlMiddle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPRotatingWheelControlMiddle.m; sourceTree = "<group>"; };
+		4A85ECE418F00BE9004861FE /* SCPRotatingWheelControlSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPRotatingWheelControlSegment.h; sourceTree = "<group>"; };
+		4A85ECE518F00BE9004861FE /* SCPRotatingWheelControlSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPRotatingWheelControlSegment.m; sourceTree = "<group>"; };
+		4A85ECE618F00BE9004861FE /* SCPRotatingWheelControlTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPRotatingWheelControlTop.h; sourceTree = "<group>"; };
+		4A85ECE718F00BE9004861FE /* SCPRotatingWheelControlTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPRotatingWheelControlTop.m; sourceTree = "<group>"; };
+		4A85ECED18F00D49004861FE /* SCPRotatingWheelControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPRotatingWheelControlViewController.h; sourceTree = "<group>"; };
+		4A85ECEE18F00D49004861FE /* SCPRotatingWheelControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPRotatingWheelControlViewController.m; sourceTree = "<group>"; };
+		4A85ECF018F01DD4004861FE /* SCPRotatingWheelControlBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPRotatingWheelControlBlocks.h; sourceTree = "<group>"; };
+		4A85ECF118F01DD4004861FE /* SCPRotatingWheelControlBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPRotatingWheelControlBlocks.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A85EC9B18F00B95004861FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A85ECA418F00B95004861FE /* CoreGraphics.framework in Frameworks */,
+				4A85ECA618F00B95004861FE /* UIKit.framework in Frameworks */,
+				4A85ECA218F00B95004861FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A85ECC218F00B95004861FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A85ECC718F00B95004861FE /* XCTest.framework in Frameworks */,
+				4A85ECC918F00B95004861FE /* UIKit.framework in Frameworks */,
+				4A85ECC818F00B95004861FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A85EC9518F00B95004861FE = {
+			isa = PBXGroup;
+			children = (
+				4A85ECA718F00B95004861FE /* SCPRotatingWheelControl */,
+				4A85ECCC18F00B95004861FE /* SCPRotatingWheelControlTests */,
+				4A85ECA018F00B95004861FE /* Frameworks */,
+				4A85EC9F18F00B95004861FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A85EC9F18F00B95004861FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A85EC9E18F00B95004861FE /* SCPRotatingWheelControl.app */,
+				4A85ECC518F00B95004861FE /* SCPRotatingWheelControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A85ECA018F00B95004861FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A85ECA118F00B95004861FE /* Foundation.framework */,
+				4A85ECA318F00B95004861FE /* CoreGraphics.framework */,
+				4A85ECA518F00B95004861FE /* UIKit.framework */,
+				4A85ECC618F00B95004861FE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A85ECA718F00B95004861FE /* SCPRotatingWheelControl */ = {
+			isa = PBXGroup;
+			children = (
+				4A85ECB018F00B95004861FE /* SCPAppDelegate.h */,
+				4A85ECB118F00B95004861FE /* SCPAppDelegate.m */,
+				4A85ECB618F00B95004861FE /* Main_iPad.storyboard */,
+				4A85ECDD18F00BC3004861FE /* View controllers */,
+				4A85ECDC18F00BC3004861FE /* SCPRotatingWheelControl */,
+				4A85ECBF18F00B95004861FE /* Images.xcassets */,
+				4A85ECA818F00B95004861FE /* Supporting Files */,
+			);
+			path = SCPRotatingWheelControl;
+			sourceTree = "<group>";
+		};
+		4A85ECA818F00B95004861FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A85ECA918F00B95004861FE /* SCPRotatingWheelControl-Info.plist */,
+				4A85ECAA18F00B95004861FE /* InfoPlist.strings */,
+				4A85ECAD18F00B95004861FE /* main.m */,
+				4A85ECAF18F00B95004861FE /* SCPRotatingWheelControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A85ECCC18F00B95004861FE /* SCPRotatingWheelControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A85ECD218F00B95004861FE /* SCPRotatingWheelControlTests.m */,
+				4A85ECCD18F00B95004861FE /* Supporting Files */,
+			);
+			path = SCPRotatingWheelControlTests;
+			sourceTree = "<group>";
+		};
+		4A85ECCD18F00B95004861FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A85ECCE18F00B95004861FE /* SCPRotatingWheelControlTests-Info.plist */,
+				4A85ECCF18F00B95004861FE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A85ECDC18F00BC3004861FE /* SCPRotatingWheelControl */ = {
+			isa = PBXGroup;
+			children = (
+				4A85ECDE18F00BE9004861FE /* SCPRotatingWheelControl.h */,
+				4A85ECDF18F00BE9004861FE /* SCPRotatingWheelControl.m */,
+				4A85ECE018F00BE9004861FE /* SCPRotatingWheelControlBottom.h */,
+				4A85ECE118F00BE9004861FE /* SCPRotatingWheelControlBottom.m */,
+				4A85ECE218F00BE9004861FE /* SCPRotatingWheelControlMiddle.h */,
+				4A85ECE318F00BE9004861FE /* SCPRotatingWheelControlMiddle.m */,
+				4A85ECE418F00BE9004861FE /* SCPRotatingWheelControlSegment.h */,
+				4A85ECE518F00BE9004861FE /* SCPRotatingWheelControlSegment.m */,
+				4A85ECE618F00BE9004861FE /* SCPRotatingWheelControlTop.h */,
+				4A85ECE718F00BE9004861FE /* SCPRotatingWheelControlTop.m */,
+				4A85ECF018F01DD4004861FE /* SCPRotatingWheelControlBlocks.h */,
+				4A85ECF118F01DD4004861FE /* SCPRotatingWheelControlBlocks.m */,
+			);
+			path = SCPRotatingWheelControl;
+			sourceTree = "<group>";
+		};
+		4A85ECDD18F00BC3004861FE /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A85ECED18F00D49004861FE /* SCPRotatingWheelControlViewController.h */,
+				4A85ECEE18F00D49004861FE /* SCPRotatingWheelControlViewController.m */,
+			);
+			path = "View controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A85EC9D18F00B95004861FE /* SCPRotatingWheelControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A85ECD618F00B95004861FE /* Build configuration list for PBXNativeTarget "SCPRotatingWheelControl" */;
+			buildPhases = (
+				4A85EC9A18F00B95004861FE /* Sources */,
+				4A85EC9B18F00B95004861FE /* Frameworks */,
+				4A85EC9C18F00B95004861FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCPRotatingWheelControl;
+			productName = SCPRotatingWheelControl;
+			productReference = 4A85EC9E18F00B95004861FE /* SCPRotatingWheelControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A85ECC418F00B95004861FE /* SCPRotatingWheelControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A85ECD918F00B95004861FE /* Build configuration list for PBXNativeTarget "SCPRotatingWheelControlTests" */;
+			buildPhases = (
+				4A85ECC118F00B95004861FE /* Sources */,
+				4A85ECC218F00B95004861FE /* Frameworks */,
+				4A85ECC318F00B95004861FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A85ECCB18F00B95004861FE /* PBXTargetDependency */,
+			);
+			name = SCPRotatingWheelControlTests;
+			productName = SCPRotatingWheelControlTests;
+			productReference = 4A85ECC518F00B95004861FE /* SCPRotatingWheelControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A85EC9618F00B95004861FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SCP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ste.me;
+				TargetAttributes = {
+					4A85ECC418F00B95004861FE = {
+						TestTargetID = 4A85EC9D18F00B95004861FE;
+					};
+				};
+			};
+			buildConfigurationList = 4A85EC9918F00B95004861FE /* Build configuration list for PBXProject "SCPRotatingWheelControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A85EC9518F00B95004861FE;
+			productRefGroup = 4A85EC9F18F00B95004861FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A85EC9D18F00B95004861FE /* SCPRotatingWheelControl */,
+				4A85ECC418F00B95004861FE /* SCPRotatingWheelControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A85EC9C18F00B95004861FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A85ECB818F00B95004861FE /* Main_iPad.storyboard in Resources */,
+				4A85ECC018F00B95004861FE /* Images.xcassets in Resources */,
+				4A85ECAC18F00B95004861FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A85ECC318F00B95004861FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A85ECD118F00B95004861FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A85EC9A18F00B95004861FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A85ECEA18F00BE9004861FE /* SCPRotatingWheelControlMiddle.m in Sources */,
+				4A85ECE818F00BE9004861FE /* SCPRotatingWheelControl.m in Sources */,
+				4A85ECAE18F00B95004861FE /* main.m in Sources */,
+				4A85ECB218F00B95004861FE /* SCPAppDelegate.m in Sources */,
+				4A85ECF218F01DD4004861FE /* SCPRotatingWheelControlBlocks.m in Sources */,
+				4A85ECEB18F00BE9004861FE /* SCPRotatingWheelControlSegment.m in Sources */,
+				4A85ECEF18F00D49004861FE /* SCPRotatingWheelControlViewController.m in Sources */,
+				4A85ECEC18F00BE9004861FE /* SCPRotatingWheelControlTop.m in Sources */,
+				4A85ECE918F00BE9004861FE /* SCPRotatingWheelControlBottom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A85ECC118F00B95004861FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A85ECD318F00B95004861FE /* SCPRotatingWheelControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A85ECCB18F00B95004861FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A85EC9D18F00B95004861FE /* SCPRotatingWheelControl */;
+			targetProxy = 4A85ECCA18F00B95004861FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A85ECAA18F00B95004861FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A85ECAB18F00B95004861FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A85ECB618F00B95004861FE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A85ECB718F00B95004861FE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4A85ECCF18F00B95004861FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A85ECD018F00B95004861FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A85ECD418F00B95004861FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A85ECD518F00B95004861FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A85ECD718F00B95004861FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCPRotatingWheelControl/SCPRotatingWheelControl-Prefix.pch";
+				INFOPLIST_FILE = "SCPRotatingWheelControl/SCPRotatingWheelControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A85ECD818F00B95004861FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCPRotatingWheelControl/SCPRotatingWheelControl-Prefix.pch";
+				INFOPLIST_FILE = "SCPRotatingWheelControl/SCPRotatingWheelControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4A85ECDA18F00B95004861FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SCPRotatingWheelControl.app/SCPRotatingWheelControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCPRotatingWheelControl/SCPRotatingWheelControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SCPRotatingWheelControlTests/SCPRotatingWheelControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4A85ECDB18F00B95004861FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SCPRotatingWheelControl.app/SCPRotatingWheelControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCPRotatingWheelControl/SCPRotatingWheelControl-Prefix.pch";
+				INFOPLIST_FILE = "SCPRotatingWheelControlTests/SCPRotatingWheelControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A85EC9918F00B95004861FE /* Build configuration list for PBXProject "SCPRotatingWheelControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A85ECD418F00B95004861FE /* Debug */,
+				4A85ECD518F00B95004861FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A85ECD618F00B95004861FE /* Build configuration list for PBXNativeTarget "SCPRotatingWheelControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A85ECD718F00B95004861FE /* Debug */,
+				4A85ECD818F00B95004861FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A85ECD918F00B95004861FE /* Build configuration list for PBXNativeTarget "SCPRotatingWheelControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A85ECDA18F00B95004861FE /* Debug */,
+				4A85ECDB18F00B95004861FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A85EC9618F00B95004861FE /* Project object */;
+}
