@@ -113,6 +113,9 @@ static CGFloat deltaAngle;
 {
     //Animate the wheel to show that it can be spined
     
+    //Stop the user spinning the wheel
+    [self setUserInteractionEnabled:NO];
+    
     [UIView animateWithDuration:1.0f
                      animations:^{
                          [_container setTransform:CGAffineTransformRotate([_container transform], -M_PI)];
@@ -121,6 +124,10 @@ static CGFloat deltaAngle;
                                           animations:^{
                                               [_container setTransform:CGAffineTransformRotate([_container transform], M_PI)];
                                           } completion:^(BOOL finished) {
+                                              
+                                              //Once the animation is complete enable to user to interact with the wheel
+                                              [self setUserInteractionEnabled:YES];
+                                              
                                               if(spinCmpletionBlock)
                                               {
                                                   spinCmpletionBlock(YES);
