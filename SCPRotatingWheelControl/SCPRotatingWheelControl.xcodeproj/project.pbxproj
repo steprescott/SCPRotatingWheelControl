@@ -515,6 +515,7 @@
 				4A85ECD818F00B95004861FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A85ECD918F00B95004861FE /* Build configuration list for PBXNativeTarget "SCPRotatingWheelControlTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +524,7 @@
 				4A85ECDB18F00B95004861FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
